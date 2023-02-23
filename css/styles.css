@@ -94,3 +94,26 @@ div.home-featured-img a:active {
 .home-featured-img {
     margin-top: -30px;
 }
+
+.menu-featured-blurb {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.menu-featured-blurb h1 {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.menu-featured-blurb p {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1%;
+}
+
