@@ -228,14 +228,14 @@ div.newsletter img {
 
 .footer-nav {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .foot-logo img {
     display: block;
     margin-left: auto; 
     margin-right: auto;
-    height: 30px;
+    height: 40px;
 }
 
 .foot-navbar-nav {
@@ -253,6 +253,21 @@ div.newsletter img {
     padding: 15px;
 }
 
+a.foot-nav-link:link {
+    text-decoration: none;
+}
+a.foot-nav-link:visited {
+    text-decoration: none;
+}
+a.foot-nav-link:hover {
+    text-decoration: none;
+    color: var(--fm-primary)
+}
+a.foot-nav-link:active {
+    text-decoration: none;
+    color:black;
+}
+
 /* Menu */
 .menu-featured-blurb {
     margin-left: 25%;
@@ -263,7 +278,7 @@ div.newsletter img {
     font-family: "franklin-gothic-compressed", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align: center;
     margin-bottom: 0%;
 }
@@ -274,6 +289,63 @@ div.newsletter img {
     font-size: 1.5em;
     text-align: center;
     margin-top: 1%;
+}
+
+.menu-list {
+    margin-top: 2.5%;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    border: 2.5px solid black; 
+}
+
+.menu-list a {
+    margin-top: 0;
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    padding: 15px;
+}
+
+.menu h2 {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.menu-menu {
+    margin-top: 0;
+    text-align: center;
+    padding-inline-end: 40px;
+}
+.menu-item {
+    display:inline-block;
+    padding: 5%;
+    padding-top: 2.5%;
+}
+.menu-item img {
+    max-width: 450px;
+    min-width: 450px; 
+}
+.menu-item h3{
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    margin:0;
+    margin-top: 2.5%
+}
+.menu-item p {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    color: gray;
+    margin:0;
+    margin-top: 2.5%
 }
 /* Menu Item */
 
