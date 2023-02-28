@@ -25,17 +25,17 @@ a.nav-link {
     padding: 15px;
 }
 
-a.nav-link:link {
+.nav-link a:link {
     text-decoration: none;
 }
-a.nav-link:visited {
+.nav-link a:visited {
     text-decoration: none;
 }
-a.nav-link:hover {
+.nav-link a:hover {
     text-decoration: none;
     color: var(--fm-primary)
 }
-a.nav-link:active {
+.nav-link a:active {
     text-decoration: none;
     color:black;
 }
@@ -159,7 +159,7 @@ img.logo {
     font-family: "franklin-gothic-compressed", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
@@ -308,6 +308,20 @@ a.foot-nav-link:active {
     padding: 15px;
 }
 
+.menu-list a:link {
+    text-decoration: none;
+}
+
+.menu-list a:visited {
+    text-decoration: none;
+    color:black;
+}
+.menu-list a:hover {
+    text-decoration: none;
+    color: var(--fm-primary)
+}
+
+
 .menu h2 {
     font-family: "franklin-gothic-compressed", sans-serif;
     font-weight: 400;
@@ -330,6 +344,7 @@ a.foot-nav-link:active {
     max-width: 450px;
     min-width: 450px; 
 }
+
 .menu-item h3{
     font-family: "franklin-gothic-compressed", sans-serif;
     font-weight: 400;
@@ -349,9 +364,145 @@ a.foot-nav-link:active {
 }
 /* Menu Item */
 
+.ft-menu-item {
+    margin-top: 5%;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+}
+
+img.featured-bread {
+    max-width: 500px;
+}
+
+.ft-menu-item-blurb {
+    margin-left: 5%;
+}
+
+.ft-menu-item-blurb h1{
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom:10px;
+}
+
+.ft-menu-item-blurb img{
+    margin-top:0;
+    width: 575px;
+}
+
+.ft-menu-item-blurb p {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    text-align:left;
+    margin-right: 15%;
+}
 /* About */
 
+.our-story {
+    margin-top: 5%;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+}
+
+img.story {
+    max-width: 500px;
+}
+
+.story-blurb {
+    margin-left: 5%;
+}
+
+.story-blurb h1{
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom:10px;
+}
+
+.story-blurb img{
+    margin-top:0;
+    width: 575px;
+}
+
+.story-blurb p {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    text-align:left;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
 /* Contact */
 
+.contact {
+    margin-top: 5%;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+}
+
+.contact img {
+    max-width: 500px;
+}
+
+.contact-blurb {
+    margin-left: 5%;
+}
+
+.contact-blurb h1{
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom:10px;
+}
+
+.contact-blurb img{
+    margin-top:0;
+    width: 575px;
+}
+
+.contact-blurb p {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    text-align:left;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+.contact-blurb a {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align:left;
+    margin-right: 15%;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.contact-blurb a:link {
+    text-decoration: none;
+}
+.contact-blurb a:visited {
+    text-decoration: none;
+}
+.contact-blurb a:hover {
+    text-decoration: none;
+    color: var(--fm-primary)
+}
+.contact-blurb a:active {
+    text-decoration: none;
+    color: black;
+}
 
 
