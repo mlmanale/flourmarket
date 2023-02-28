@@ -25,17 +25,17 @@ a.nav-link {
     padding: 15px;
 }
 
-.nav-link a:link {
+a.nav-link:link {
     text-decoration: none;
 }
-.nav-link a:visited {
+a.nav-link:visited {
     text-decoration: none;
 }
-.nav-link a:hover {
+a.nav-link:hover {
     text-decoration: none;
     color: var(--fm-primary)
 }
-.nav-link a:active {
+a.nav-link:active {
     text-decoration: none;
     color:black;
 }
@@ -190,7 +190,7 @@ img.logo {
 }
 .newsletter-blurb a:hover {
     text-decoration: none;
-    color: var(--fm-primary)
+    color: var(--fm-primary);
 }
 .newsletter-blurb a:active {
     text-decoration: none;
@@ -306,6 +306,7 @@ a.foot-nav-link:active {
     font-style: normal;
     font-size: 1.75em;
     padding: 15px;
+    color:black;
 }
 
 .menu-list a:link {
